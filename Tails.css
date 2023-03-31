@@ -1,0 +1,83 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    text-align: justify;
+    
+    }
+    
+.column{
+    flex: 1;
+    padding: 10px;
+
+
+}
+
+img{
+    float: right;
+    height: 300px;
+}
+
+.options{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+
+.referenceTable{
+    float: right;
+    text-align: center;
+    width: 285px;
+    position: relative; 
+    margin: 15px;
+    border: solid 1px black;
+}
+
+.leftCol{
+    flex: 1;
+    min-width: 150px;
+
+    
+    
+    
+}
+
+.midCol{
+    flex: 1;
+    flex-grow: 4;
+    min-width: 300px;
+
+}
+
+.rightCol{
+    background-color: aqua;
+    flex: .5;
+    min-width: 150px;
+
+}
+
+
+
+
+
+
+
+.MilesPower{
+    
+    background-color: lightgray;
+}
+
+.universe{
+    background-color: lightgray;
+}
+
+
+
+
